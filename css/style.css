@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    color: #222;
+}
+
+section {
+    padding: 0 120px;
+    margin-bottom: calc(11vw + 18px);
+}
+
+
+h2 {
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+
+.screen_1_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 97px;
+    margin-top: 80px;
+    grid-template-areas:    "a b"
+                            "c d";
+}
+
+.screen_1_info img {
+    grid-area: a;
+}
+
+.screen_1_info .student {
+    grid-area: b;
+}
+
+.screen_1_info .title {
+    font-size: calc(2.6vw + 24px);
+    font-weight: 700;
+    letter-spacing: 0.58px;
+}
+
+.screen_1_info .value {
+    font-size: calc(1vw + 13px);
+    line-height: 140%;
+}
+
+.screen_1_info .desc {
+    font-size: calc(0.5vw + 20px);
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    grid-area: c;
+}
+
+.screen_1_info .screen_1_text_about {
+    grid-area: d;
+}
+
+.screen_1 {
+    position: relative;
+}
+
+
+
+
+
+
+
+.job_salary h2{
+    max-width:  729px;
+  }
+  .job_salary p{
+    font-size: calc(1vw + 14.2px);
+    width: calc(60.6vw + 101px);
+    margin-bottom: calc(1.8vw +13.3px);
+  }
+  .job_salary img{
+    width: calc(82.3vw + 14.2px);
+  }
+  .job_salary span{
+    font-weight: bold;
+  } 
+  .feedback_card{
+    border-radius: 12px;
+    padding: 56px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .feedback_text{
+    margin-bottom: 10px;
+  }
+  .a {
+    margin-bottom: 12px;
+  } 
+  .feedback_card p{
+    margin: 0;
+  }
+  .user_info{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .user_info h5{
+    max-width: 169px;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .user_img img{
+  }
+  .screen_12_span {
+    margin-top: 100px;
+
+
+
+
+
+
+    font-family: 'TT Hoves';
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: left;
+
+  }
+  
+  
+  
+  
+  
+  
+  @media (max-width:1099px) {
+    .legend{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .desktop {
+      display: none;
+    }
+    .phone {
+      display: block;
+    }
+  }
+  
+
+
+@media (max-width: 600px) {
+    .screen_1_info {
+        grid-template-columns: 1fr;
+        grid-template-areas:    "a"
+                                "c"
+                                "b"
+                                "d";
+    }
+    section {
+      padding: 0 20px;
+      margin-bottom: calc(11vw + 18px);
+  }
+}
